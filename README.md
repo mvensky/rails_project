@@ -1,5 +1,13 @@
 # README
 
+# Ruby on Rails Tutorial; Second ed. - 2013 - from Ruby 1.9 days
+
+This is the first application for
+[*Ruby on Rails Tutorial: Learn Rails by Example*](http://railstutorial.org/)
+by [Michael Hartl](http://michaelhartl.com).
+
+#### Rails stub output is below this line #################################
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
