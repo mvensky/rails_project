@@ -9,15 +9,17 @@ end
 #        You have not declared a Ruby version in your Gemfile.
 #        To set your Ruby version add this line to your Gemfile:
 ruby '2.4.0'
-gem 'sqlite3'
+#gem 'sqlite3'
+# because heroku does not support sqlite, it's just a toy db; use postgres instead
+gem 'pg'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.1'
 # Use sqlite3 as the database for Active Record
 # by making a development group stop conflct with Heroku as per Hartl book
-group :development do
-    gem 'sqlite3'
-end
+#group :development do
+#    gem 'sqlite3'
+#end
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Use SCSS for stylesheets
