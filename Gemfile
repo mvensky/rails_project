@@ -9,7 +9,7 @@ end
 #        You have not declared a Ruby version in your Gemfile.
 #        To set your Ruby version add this line to your Gemfile:
 ruby '2.4.0'
-gem 'sqlite3
+gem 'sqlite3'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.1'
